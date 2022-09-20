@@ -7,9 +7,9 @@ START CHROME "https://encore-rehab-wiki.com/"
 
 timeout /t 6
 
-%SendKeys% "ibektic"
+%SendKeys% "encorestaff"
 %SendKeys% "{TAB}"
-%SendKeys% "encore"
+%SendKeys% "Encore123!"
 %SendKeys% "{ENTER}"
 
 goto :EOF
