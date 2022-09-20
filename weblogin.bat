@@ -5,7 +5,7 @@
 set SendKeys=CScript //nologo //E:JScript "%~F0"
 START CHROME "https://encore-rehab-wiki.com/"
 
-timeout /t 5
+timeout /t 6
 
 %SendKeys% "ibektic"
 %SendKeys% "{TAB}"
